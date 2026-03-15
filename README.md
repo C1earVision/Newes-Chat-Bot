@@ -1,4 +1,4 @@
-# Kadash RAG ChatBot
+# Newes RAG ChatBot
 
 A powerful Retrieval-Augmented Generation (RAG) ChatBot application built with FastAPI, LangGraph, and ChromaDB. This system scrapes a variety of designated websites to build a custom knowledge base, which its AI agents query to provide factual, up-to-date, and domain-specific answers.
 
