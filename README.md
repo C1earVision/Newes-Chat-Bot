@@ -71,9 +71,9 @@ The core dependencies are listed in `requirements.txt`:
    Create your `.env` file to include required model configurations and any API keys:
    ```env
    # Example variables. Replace with actual model identifiers / keys.
-   GENERAL_AGENT_MODEL_NAME=your_model_name
-   DATA_BASE_QUERY_AGENT_MODEL_NAME=your_db_model_name
-   FINAL_AGENT_MODEL_NAME=your_final_model_name
+   GENERAL_AGENT_MODEL_NAME='llama-3.3-70b-versatile'
+   DATA_BASE_QUERY_AGENT_MODEL_NAME='llama-3.3-70b-versatile'
+   FINAL_AGENT_MODEL_NAME='llama-3.3-70b-versatile'
    GROQ_API_KEY=your_groq_api_key
    ```
 

@@ -78,7 +78,7 @@ async def chat(query: Query):
     try:
         GENERAL_AGENT_MODEL_NAME = os.environ.get("GENERAL_AGENT_MODEL_NAME")
         DATA_BASE_QUERY_AGENT_MODEL_NAME = os.environ.get("DATA_BASE_QUERY_AGENT_MODEL_NAME")
-        FINAL_AGENT_MODEL_NAME = os.environ.get("FINAL_AGENT_MODEL_NAME", GENERAL_AGENT_MODEL_NAME)
+        FINAL_AGENT_MODEL_NAME = os.environ.get("FINAL_AGENT_MODEL_NAME")
 
         models = {
             "general": GENERAL_AGENT_MODEL_NAME,
