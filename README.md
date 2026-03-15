@@ -68,7 +68,7 @@ The core dependencies are listed in `requirements.txt`:
    ```
 
 4. **Environment Variables:**
-   Create or modify your `.env` file to include required model configurations and any API keys:
+   Create your `.env` file to include required model configurations and any API keys:
    ```env
    # Example variables. Replace with actual model identifiers / keys.
    GENERAL_AGENT_MODEL_NAME=your_model_name
