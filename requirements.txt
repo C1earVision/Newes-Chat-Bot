@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic
+pyyaml
+requests
+beautifulsoup4
+langchain
+langchain-core
+langchain-groq
+langchain-text-splitters
+langgraph
+chromadb
+sentence-transformers
