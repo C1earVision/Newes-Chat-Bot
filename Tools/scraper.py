@@ -154,7 +154,7 @@ class Scraper:
             return
 
         print("Initializing embedding model")
-        model = SentenceTransformer('intfloat/multilingual-e5-small')
+        model = SentenceTransformer('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')
         
         print("Initializing vector database")
         client = chromadb.PersistentClient(path=db_path)

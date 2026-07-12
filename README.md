@@ -5,7 +5,7 @@ A powerful Retrieval-Augmented Generation (RAG) ChatBot application built with F
 ## Features
 
 - **Automated Web Scraping:** A robust, multithreaded web scraper built with `BeautifulSoup` and `requests`. It recursively crawls and extracts articles from several target websites (e.g., Ahram, Gomhuriaonline, Azhar, Dar-alifta, EgyptAir, etc.). Scraping runs periodically via an asynchronous background task.
-- **Vector Database Storage:** Uses `SentenceTransformer` (`intfloat/multilingual-e5-small`) to convert text chunks into embeddings, storing them in a persistent `ChromaDB` collection (`website_articles`).
+- **Vector Database Storage:** Uses `SentenceTransformer` (`sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`) to convert text chunks into embeddings, storing them in a persistent `ChromaDB` collection (`website_articles`).
 - **Agentic Workflow:** Employs `LangGraph` and LangChain to orchestrate a multi-agent system:
   - **General Agent:** Splits the users query into multible queries based on how many questions the user asked in the query and sends them to the database query agent.
   - **Database Query Agent:** Constructs search queries and retrieves top matches from ChromaDB.
